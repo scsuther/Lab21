@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+     This is a comment in CSS
+     
+     1. Change the font of the entire page
+     2. Make 3 divs
+     3. Make them 100px square
+     4. Give each a different background color
+*/
+
+
+body {
+	
+	font-family:"Lucida Console", Monaco, monospace;
+}
+
+.box {
+	
+	border: 2px dotted black;
+	width: 100px;
+	height: 100px;
+}
+
+.box1 {
+	
+	background-color: #ff50a1;
+}
+
+
+.box2 {
+	
+	background-color: #3effb4;
+}
+
+.box3 {
+	
+	background-color: #ffe787;
+}
+
+#list {
+	list-style-type: none;
+}
+
